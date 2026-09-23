@@ -10,4 +10,4 @@ When a user types `https://RubinK21.github.io` into a browser:
 
 ## 2. AI Attribution
 
-No AI model were used in the physical assistance of writing the Website's code. Only for answering logic and specific syntax oriented questions ("which order <h1> , <table>, ... should go in the .html" and other questions revolving the matter).
+No AI model were used in the physical assistance of writing the Website's code. Only for answering logic and specific syntax oriented questions ("which order h1 ,"table", ... should go in the .html" and other questions revolving the matter).
