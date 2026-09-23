@@ -1,5 +1,11 @@
+/* Element Selector (0, 0, 1) */
 h1 {
   color: red;
   font-family: sans-serif;
 }
 
+/* Class Selector (0, 1, 0) - WINS over h1 */
+.main-title {
+  color: #1a2a3a;
+  font-size: 2.5rem;
+}
