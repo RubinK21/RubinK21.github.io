@@ -1,10 +1,13 @@
 /* Element Selector (0, 0, 1) */
 h1 {
-  color: red;
-  font-family: sans-serif;
-}
+  color: red;                   /* For the specificity challenge, I experimented with h1 and main-title. */
+  font-family: sans-serif;        /*'h1' has a specificity score of (0, 0, 1). */
+}                                 /*'.main-title' has a specificity score of (0, 1, 0).*/
+                                  /*The class selector (.main-title) wins over the element 
+                                    selector (h1) because 0,1,0 > 0,0,1. The title displays 
+                                    in navy blue (#1a2a3a) instead of red.*/
 
-/* Class Selector (0, 1, 0) - WINS over h1 */
+/* Class Selector (0, 1, 0) - WINS over h1 shown here*/
 .main-title {
   color: #1a2a3a;
   font-size: 2.5rem;
